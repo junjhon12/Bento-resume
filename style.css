@@ -8,16 +8,7 @@ body {display: flex;justify-content: center;align-items: center;background-color
 img {object-fit: cover;width: 100%;height: 100%;overflow: hidden;display: block;}
 
 .container1 {grid-column-start: 1;grid-column-end: 3;grid-row-start: 1;grid-row-end: 3;}
-.container2 {
-    grid-column-start: 3;grid-column-end: 6;grid-row-start: 1;grid-row-end: 3;
-    flex: 1;
-    background-color: rgb(202, 202, 131);
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-size: 2em;
-}
+.container2 {grid-column-start: 3;grid-column-end: 6;grid-row-start: 1;grid-row-end: 3;flex: 1;background-color: rgb(202, 202, 131);padding: 1rem;display: flex;flex-direction: column;justify-content: center;font-size: 2em;}
 .container3 {
     grid-column-start: 1;grid-column-end: 5;grid-row-start: 3;grid-row-end: 5;
     background-color: lightgreen;
@@ -27,16 +18,24 @@ img {object-fit: cover;width: 100%;height: 100%;overflow: hidden;display: block;
     background-color: black;
 }
 .container5 {
-    grid-column-start: 5;grid-column-end: 6;
-    background-color: black;
+    grid-column-start: 5;grid-column-end: 6;background-color: black;
+    border: 3px solid white;
 }
 .container6 {grid-column-start: 1;grid-column-end: 6;grid-row-start: 5;grid-row-end: 7;background-color: lightslategray;display: flex;padding: 1rem;justify-content: space-between;align-items: center;}
 .container6 .btn {background-color: aliceblue; border-radius: 100%; padding: 1rem;}
 
 .container7 {grid-column-start: 1;grid-column-end: 6;grid-row-start: 7;grid-row-end: 9;background-color: rgb(58, 78, 99);display: flex;padding: 1rem;}
 #email {flex: 1;background-color: lightseagreen;border-right: 5px solid black;display: flex;align-items: center;justify-content: center;}
-#social {flex: 1;background-color: lightcoral;}
+#social {flex: 1;background-color: lightcoral; display: flex; justify-content: center; align-items: center;}
 #socials img {
     border-radius: 100%;
-    background-color: antiquewhite;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    display: inline-block;
+    cursor: pointer;
+    object-fit: contain;
+    padding: 10px;
+    border: 4px solid black;
 }
