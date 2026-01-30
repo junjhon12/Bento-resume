@@ -2,18 +2,18 @@
 *, ::before, ::after {padding: 0;margin: 0;box-sizing: border-box;}
 
 
-body {display: flex;justify-content: center;align-items: center;background-color: gray; height: 100vh;font-family: 'Inter', sans-serif;}
+body {display: flex;justify-content: center;align-items: center; height: 100vh;font-family: 'Inter', sans-serif;}
 .bordered {border-radius: 25px;overflow: hidden;}
 .bento-container {height:80%;width: 25%;background-color: rgb(0, 0, 0); display: grid; grid-template-columns: repeat(5, 1fr);grid-template-rows: repeat(8, 1fr); grid-gap: 1rem;padding: 1rem; border-radius: 25px;}
 img {object-fit: cover;width: 100%;height: 100%;overflow: hidden;display: block;}
 
 .container1 {grid-column-start: 1;grid-column-end: 3;grid-row-start: 1;grid-row-end: 3;}
 
-.container2 {grid-column-start: 3;grid-column-end: 6;grid-row-start: 1;grid-row-end: 3;flex: 1;background-color: rgb(202, 202, 131);padding: 1rem;display: flex;flex-direction: column;justify-content: center;font-size: 2em;}
+.container2 {grid-column-start: 3;grid-column-end: 6;grid-row-start: 1;grid-row-end: 3;flex: 1;background-color: rgb(255, 255, 255);padding: 1rem;display: flex;flex-direction: column;justify-content: center;font-size: 2em;}
 
 .container3 {
     grid-column-start: 1;grid-column-end: 5;grid-row-start: 3;grid-row-end: 5;
-    background-color: lightgreen;
+    background-color: rgb(255, 255, 255);
 }
 .container4 {
     grid-column-start: 5;grid-column-end: 6;
@@ -25,10 +25,10 @@ img {object-fit: cover;width: 100%;height: 100%;overflow: hidden;display: block;
     border: 3px solid white;
 }
 
-.container6 {grid-column-start: 1;grid-column-end: 6;grid-row-start: 5;grid-row-end: 7;background-color: lightslategray;display: flex;padding: 0 1rem;justify-content: space-between;align-items: center; height: 100%;}
+.container6 {grid-column-start: 1;grid-column-end: 6;grid-row-start: 5;grid-row-end: 7;background-color: rgb(255, 255, 255);display: flex;padding: 0 1rem;justify-content: space-between;align-items: center; height: 100%;}
 .container6 .btn {background-color: aliceblue; border-radius: 100%; padding: 1rem; cursor: pointer; font-size: 1em; border: 4px solid black;}
 .container6 .btn:hover {}
-.container6 #rep {background-color: lightsalmon;height: 100%;flex: 1; margin: 0 1rem;}
+.container6 #rep {height: 100%;flex: 1; margin: 0 1rem;}
 #rep p {
     display: flex;
     align-items: center;
@@ -38,12 +38,11 @@ img {object-fit: cover;width: 100%;height: 100%;overflow: hidden;display: block;
 .container6 .card {background-color: lightcyan;height: 100%;width: 100%; display: flex;}
 .container6 .card-img {
     flex: 1;
-    background-color: lightgreen;
     height: 100%;
 }
 .container6 .card-content {
     flex: 1;
-    background-color: rgb(20, 50, 59);
+    background-color: rgb(0, 0, 0);
     height: 100%;
     color: white;
     display: flex;
@@ -73,7 +72,7 @@ img {object-fit: cover;width: 100%;height: 100%;overflow: hidden;display: block;
 }
 
 
-.container7 {grid-column-start: 1;grid-column-end: 6;grid-row-start: 7;grid-row-end: 9;background-color: rgb(58, 78, 99);display: flex;padding: 1rem;}
-#email {flex: 1;background-color: lightseagreen;border-right: 5px solid black;display: flex;align-items: center;justify-content: center;}
-#social {flex: 1;background-color: lightcoral; display: flex; justify-content: center; align-items: center;}
+.container7 {grid-column-start: 1;grid-column-end: 6;grid-row-start: 7;grid-row-end: 9;background-color: rgb(255, 255, 255);display: flex;padding: 1rem;}
+#email {flex: 1;background-color: rgb(255, 255, 255);border-right: 5px solid black;display: flex;align-items: center;justify-content: center;}
+#social {flex: 1;background-color: rgb(255, 255, 255); display: flex; justify-content: center; align-items: center;}
 #socials img {border-radius: 100%;background-color: white;width: 50px;height: 50px;margin: 10px;display: inline-block;cursor: pointer;object-fit: contain;padding: 10px;border: 4px solid black;}
