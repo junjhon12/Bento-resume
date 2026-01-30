@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const repContainer = document.getElementById('rep');
     const leftBtn = document.querySelector('.left.btn');
-    const rightBtn =querySelector('.right.btn');
+    const rightBtn = document.querySelector('.right.btn');
     const username = 'junjhon12';
     let repos = [];
     let currentIndex = 0;
@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="card">
                 <div class="card-img"><img src="${repoImage}" alt="${repoName}"></div>
                 <div class="card-content">
-                    <h3>${repoName}</h3>
+                    <h5 style="font-size:10px; text-align:center;">${repoName}</h5>
                     <a href="${repo.html_url}" target="_blank">View Code</a>
                     ${repo.homepage ? `<a href="${repo.homepage}" target="_blank">Live Demo</a>` : ''}
                 </div>

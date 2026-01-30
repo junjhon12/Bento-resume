@@ -50,7 +50,6 @@ img {object-fit: cover;width: 100%;height: 100%;overflow: hidden;display: block;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
 }
 .container6 .card {
     background-color: lightcyan;
@@ -67,8 +66,8 @@ img {object-fit: cover;width: 100%;height: 100%;overflow: hidden;display: block;
     padding: 5px 15px;
     margin-top: 10px;
     text-decoration: none;
+    font-size: 12px;
 }
-
 .container6 .card-content a:hover {
     background-color: #555;
 }
